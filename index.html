@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A car</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/dot.png" type="image/png">
+</head>
+<body>
+    <div class="blanco">
+        <div class="amarillo"></div>
+        <div class="naranja"></div>
+        <h1>Search for a rental car</h1>
+        <!-- formulario -->
+        <form action="">
+            <!-- pick up location -->
+            <label>Pick up location</label>
+            <input type="text" placeholder="City, airport, region, district...">
+            <!-- deliver -->
+            <div class="deliver">
+            <input type="checkbox">
+            <label>Deliver the car somewhere else</label>
+            </div>
+            <!-- fechas -->
+            <div class="fechas">
+                <div class="fecha">
+                    <label>Date of pickup</label>
+                    <input type="date">
+                    <input type="time">
+            </div>
+            <div class="fecha">
+                <label>Date of delivery</label>
+                <input type="date">
+                <input type="time">
+            </div>
+        </div>
+        <!-- edad conductor -->
+        <div class="conductor">
+            <input type="checkbox" checked>
+            <label>The driver's age between 30 and 65?</label>
+        </div>
+        <ul>
+            <li>No credit card fees</li>
+            <li>No change fees</li>
+            <li>Price match guarantee</li>
+        </ul>
+        <input type="submit" value="Search">
+
+        
+        </form>
+    </div>
+</body>
+</html>
