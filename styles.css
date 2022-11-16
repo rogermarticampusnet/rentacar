@@ -5,25 +5,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
     height: 100vh;
 }
 
 .blanco {
     background: white;
+    /*height: 70vh;*/
     border-radius: 1.5em;
     padding: 3em;
-    margin: auto;
-    min-width: 500px;
-/*    height: 60vh; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 1px 1px 1px #999;
+    width: 500px;
     position: relative;
 }
 
 .blanco h1 {
     font-family: 'Bree Serif', serif;
     font-weight: 400;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.blanco form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
 }
 
 .fechas {
@@ -65,7 +74,17 @@ form input {
 form input[type="text"] {
     margin-bottom: 1em;
     padding: 1em;
+    font-weight: bold;
 }
+
+form input[type="date"] {
+    font-weight: bold;
+}
+
+form input[type="time"] {
+    font-weight: bold;
+}
+
 
 form input[placeholder] {
     color: rgb(35, 34, 34);
@@ -103,4 +122,18 @@ form input[type="submit"] {
     right: -150px;
     bottom: -80px;
     z-index: -1;
+}
+
+ul {
+    list-style: none;
+    margin-left: -3em;
+}
+
+ul li {
+    font-size: small;
+    margin: .5em;
+}
+
+.conductor {
+    font-size: 15px;
 }
