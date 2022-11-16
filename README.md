@@ -1,4 +1,4 @@
 # rentacar
 Website example. Rent A Car
 
-[Preview of the Website.]{https://htmlpreview.github.io/?https://github.com/rogermarticampusnet/rentacar/blob/main/index.html}
+<a href="[http://...](https://htmlpreview.github.io/?https://github.com/rogermarticampusnet/rentacar/blob/main/index.html)" target="_blank">Website Preview</a>
